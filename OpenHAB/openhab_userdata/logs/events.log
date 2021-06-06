@@ -1,0 +1,2 @@
+2021-06-06 20:12:43.965 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'openweathermap:weather-api:4357a12d0f' changed from UNKNOWN to ONLINE
+2021-06-06 20:12:43.967 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'OneCallAPIweatherandforecast_Aussentemperatur' changed from 12.75 °C to 15.71 °C

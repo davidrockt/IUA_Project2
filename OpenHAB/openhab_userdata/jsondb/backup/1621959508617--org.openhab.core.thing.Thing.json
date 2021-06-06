@@ -1,0 +1,32 @@
+{
+  "openweathermap:weather-api:4357a12d0f": {
+    "class": "org.openhab.core.thing.internal.BridgeImpl",
+    "value": {
+      "label": "OpenWeatherMap Account",
+      "channels": [],
+      "configuration": {
+        "properties": {
+          "apikey": "5251ad19a880affe47654ab434189a3e",
+          "refreshInterval": 60,
+          "language": "de"
+        }
+      },
+      "properties": {},
+      "uid": {
+        "segments": [
+          "openweathermap",
+          "weather-api",
+          "4357a12d0f"
+        ],
+        "uid": "openweathermap:weather-api:4357a12d0f"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "openweathermap",
+          "weather-api"
+        ],
+        "uid": "openweathermap:weather-api"
+      }
+    }
+  }
+}

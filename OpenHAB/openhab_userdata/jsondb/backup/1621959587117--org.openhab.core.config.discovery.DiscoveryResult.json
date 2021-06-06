@@ -1,0 +1,113 @@
+{
+  "openweathermap:onecall-history:4357a12d0f:local": {
+    "class": "org.openhab.core.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "bridgeUID": {
+        "segments": [
+          "openweathermap",
+          "weather-api",
+          "4357a12d0f"
+        ],
+        "uid": "openweathermap:weather-api:4357a12d0f"
+      },
+      "thingUID": {
+        "segments": [
+          "openweathermap",
+          "onecall-history",
+          "4357a12d0f",
+          "local"
+        ],
+        "uid": "openweathermap:onecall-history:4357a12d0f:local"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "openweathermap",
+          "onecall-history"
+        ],
+        "uid": ""
+      },
+      "properties": {
+        "location": "48.655109499999995,9.053517399999999"
+      },
+      "representationProperty": "location",
+      "flag": "NEW",
+      "label": "One Call API history data",
+      "timestamp": 1621959448177,
+      "timeToLive": -1
+    }
+  },
+  "openweathermap:uvindex:4357a12d0f:local": {
+    "class": "org.openhab.core.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "bridgeUID": {
+        "segments": [
+          "openweathermap",
+          "weather-api",
+          "4357a12d0f"
+        ],
+        "uid": "openweathermap:weather-api:4357a12d0f"
+      },
+      "thingUID": {
+        "segments": [
+          "openweathermap",
+          "uvindex",
+          "4357a12d0f",
+          "local"
+        ],
+        "uid": "openweathermap:uvindex:4357a12d0f:local"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "openweathermap",
+          "uvindex"
+        ],
+        "uid": ""
+      },
+      "properties": {
+        "location": "48.655109499999995,9.053517399999999"
+      },
+      "representationProperty": "location",
+      "flag": "NEW",
+      "label": "Local UV Index",
+      "timestamp": 1621959448176,
+      "timeToLive": -1
+    }
+  },
+  "openweathermap:weather-and-forecast:4357a12d0f:local": {
+    "class": "org.openhab.core.config.discovery.internal.DiscoveryResultImpl",
+    "value": {
+      "bridgeUID": {
+        "segments": [
+          "openweathermap",
+          "weather-api",
+          "4357a12d0f"
+        ],
+        "uid": "openweathermap:weather-api:4357a12d0f"
+      },
+      "thingUID": {
+        "segments": [
+          "openweathermap",
+          "weather-and-forecast",
+          "4357a12d0f",
+          "local"
+        ],
+        "uid": "openweathermap:weather-and-forecast:4357a12d0f:local"
+      },
+      "thingTypeUID": {
+        "segments": [
+          "openweathermap",
+          "weather-and-forecast"
+        ],
+        "uid": ""
+      },
+      "properties": {
+        "location": "48.655109499999995,9.053517399999999"
+      },
+      "representationProperty": "location",
+      "flag": "NEW",
+      "label": "Local weather and forecast",
+      "timestamp": 1621959448172,
+      "timeToLive": -1
+    }
+  }
+}

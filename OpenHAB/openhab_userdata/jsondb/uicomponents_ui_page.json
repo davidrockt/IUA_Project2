@@ -1,0 +1,51 @@
+{
+  "overview": {
+    "class": "org.openhab.core.ui.components.RootUIComponent",
+    "value": {
+      "uid": "overview",
+      "timestamp": "May 25, 2021, 6:23:20 PM",
+      "component": "oh-layout-page",
+      "config": {
+        "label": "Overview"
+      },
+      "slots": {
+        "default": [
+          {
+            "component": "oh-block",
+            "config": {},
+            "slots": {
+              "default": [
+                {
+                  "component": "oh-grid-cells",
+                  "config": {},
+                  "slots": {
+                    "default": [
+                      {
+                        "component": "oh-cell",
+                        "config": {}
+                      },
+                      {
+                        "component": "oh-label-cell",
+                        "config": {
+                          "trendItem": "OneCallAPIweatherandforecast_Aussentemperatur",
+                          "action": "analyzer",
+                          "actionAnalyzerItems": [
+                            "OneCallAPIweatherandforecast_Aussentemperatur"
+                          ],
+                          "item": "OneCallAPIweatherandforecast_Aussentemperatur",
+                          "title": "Außentemperatur",
+                          "stateAsHeader": true,
+                          "expandable": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

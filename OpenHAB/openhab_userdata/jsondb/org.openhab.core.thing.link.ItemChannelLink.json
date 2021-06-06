@@ -1,0 +1,21 @@
+{
+  "OneCallAPIweatherandforecast_Aussentemperatur -\u003e openweathermap:onecall:4357a12d0f:local:forecastHours03#temperature": {
+    "class": "org.openhab.core.thing.link.ItemChannelLink",
+    "value": {
+      "channelUID": {
+        "segments": [
+          "openweathermap",
+          "onecall",
+          "4357a12d0f",
+          "local",
+          "forecastHours03#temperature"
+        ],
+        "uid": "openweathermap:onecall:4357a12d0f:local:forecastHours03#temperature"
+      },
+      "configuration": {
+        "properties": {}
+      },
+      "itemName": "OneCallAPIweatherandforecast_Aussentemperatur"
+    }
+  }
+}

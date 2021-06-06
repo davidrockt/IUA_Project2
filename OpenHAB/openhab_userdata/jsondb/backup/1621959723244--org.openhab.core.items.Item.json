@@ -1,0 +1,14 @@
+{
+  "OneCallAPIweatherandforecast_Aussentemperatur": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "Number:Temperature",
+      "tags": [
+        "Point"
+      ],
+      "label": "Außentemperatur",
+      "category": "Temperature"
+    }
+  }
+}
